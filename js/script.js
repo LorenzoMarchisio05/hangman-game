@@ -63,7 +63,7 @@ function handleKeyUp({ key }) {
 }
 
 function updateImg() {
-    imgArea.style.backgroundImage = `url("../img/${error}.png")`;
+    imgArea.style.backgroundImage = `url("img/${error}.png")`;
 }
 
 function checkStatus() {
